@@ -65,7 +65,7 @@ public class Main {
                     break;
                 }
                 if (x >= 147)
-                    System.out.println("This is not a name color.");
+                    System.out.println("This is not a named color.");
             }
         }
     }

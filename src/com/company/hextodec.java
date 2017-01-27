@@ -37,13 +37,12 @@ public static String p;
     {
         int g = x;
         int q = 0;
-        while (g != 0)
+        while (q < 2)
         {
             s[q] = g % 16;
             g = g/16;
             ++q;
         }
-        System.out.println(s[q-1]);
         h = "";
         while (q > 0)
         {
